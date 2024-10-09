@@ -1,0 +1,66 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+.calculator{
+    width: 270px;
+    height: 400px;
+    background-color: beige;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 5px;
+}
+form input{
+    width: 100%;
+    border: none;
+    height: 150px;
+    font-size: 60px;
+    background-color: yellowgreen;
+    text-align: right;
+    pointer-events: none;
+
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+.btn-operator{
+    background-color: aqua;
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.btn{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+
+}
+.btn-ac{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.btn-equal{
+    width: 60px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+
+  
